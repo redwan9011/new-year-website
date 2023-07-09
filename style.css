@@ -1,0 +1,149 @@
+/* common style */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cmn-textp{
+    color: #444343;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+/* header section style */
+header {
+    background-image: url("./images/banner/banner1.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 100px 190px 100px;
+
+}
+
+.header-section {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.header-content {
+    max-width: 260px;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.header-content h1 {
+    color: (#151414);
+    text-align: right;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 80px;
+}
+
+.header-content p {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.btn-pr {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 8px;
+}
+
+/* section style */
+section{
+    max-width: 900px;
+    margin: auto;
+}
+/*failure section  */
+.failure-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+
+}
+.failure-content{
+    max-width: 370px;
+}
+.failure-img{
+    height: 300px;
+    width: 300px;
+    background-color: #F15B22;
+    border-radius: 50%;
+   
+}
+.failure-img img{
+    max-width: 280px;
+
+}
+.failure-content h2{
+    color: #151414;
+    font-size: 33px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.failure-content h6 {
+    font-size: 16px;
+    color: #444343;
+    font-weight: 400;
+}
+.failure-content h6 i{
+    color: #16D887;
+    font-size: 16px;
+    margin-right: 8px;
+}
+.failure-content p{
+    margin-bottom: 10px;
+}
+
+/* plan sectionstyle */
+.myp{
+    text-align: center;
+    margin: 90px 0 30px 0;
+}
+.plan-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    margin-bottom:30px ;
+    text-align: center
+}
+
+.plan-section img{
+    max-width: 63px ;
+}
+.plan-section h5{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #151414;
+    font-size: 17px;
+}
+/* image section style */
+
+.imgage-section{
+    background-image: url("./images/gradient2.png"), url("./images/watch.png") ;
+    padding: 120px 70px;
+    margin: 50px 0;
+}
